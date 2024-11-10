@@ -1,6 +1,6 @@
 {
   "name": "quasar-app-extension-qui",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A Quasar Project",
   "author": "Raymond <raymondsugiarto@gmail.com>",
   "license": "MIT",
@@ -17,35 +17,35 @@
   "exports": {
     ".": {
       "types": "./dist/runtime/index.d.ts",
-      "import": "./dist/runtime/index.js"
+      "default": "./dist/runtime/index.js"
     },
     "./boot/register": {
       "types": "./dist/runtime/boot/register.d.ts",
-      "import": "./dist/runtime/boot/register.js"
+      "default": "./dist/runtime/boot/register.js"
     },
     "./dist/index.js": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "default": "./dist/index.js"
     },
     "./dist/install.js": {
       "types": "./dist/install.d.ts",
-      "import": "./dist/install.js"
+      "default": "./dist/install.js"
     },
     "./dist/prompts.js": {
       "types": "./dist/prompts.d.ts",
-      "import": "./dist/prompts.js"
+      "default": "./dist/prompts.js"
     },
     "./dist/index": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "default": "./dist/index.js"
     },
     "./dist/install": {
       "types": "./dist/install.d.ts",
-      "import": "./dist/install.js"
+      "default": "./dist/install.js"
     },
     "./dist/prompts": {
       "types": "./dist/prompts.d.ts",
-      "import": "./dist/prompts.js"
+      "default": "./dist/prompts.js"
     },
     "./package.json": "./package.json"
   },
